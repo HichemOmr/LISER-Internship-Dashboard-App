@@ -19,6 +19,8 @@ It is composed of two parts:
 * Data processing : handled by "dataprocessing.py". This scripts generates excel files containing statistics value based on the raster and shapefile put in the "Rawdata" repository.
 * Data vizualisation : Handled by "App.py". This is the main script, it reads the excel files and generate vizualisation components.
 
+The user is able to set the region of interest (i.e., country), the NUTS level (i.e., NUTS1-2-3), type of pollutant (i.e., NO2), the year and the desired statistics. Then, a choropleth map is generated, accompanied by COVID-19 cases evolution chart of the selected area. 
+
 ### Built With
 This project is built using :
 * [Python]
